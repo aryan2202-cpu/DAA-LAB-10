@@ -1,0 +1,34 @@
+==================================================
+ DAA LAB 10 - QUESTION 3: MAX WEIGHT COMPONENT WITH SIZE LIMIT
+==================================================
+
+--------------------------------------------------
+Test Case 1: Threshold K = 3
+--------------------------------------------------
+Enter number of vertices (V): 5
+Enter size threshold (K): 3
+Enter 5 vertex weights: 4 2 7 1 5
+Enter number of edges (E): 4
+Enter 4 edges (u v weight): 1 2 10 2 3 5 3 4 8 4 5 2
+
+--------------------------------------------------
+Edge (1, 2): maximum component weight = 7
+Edge (2, 3): maximum component weight = 13
+Edge (3, 4): maximum component weight = 5
+Edge (4, 5): maximum component weight = 0
+--------------------------------------------------
+
+--------------------------------------------------
+Test Case 2: Threshold K = 2
+--------------------------------------------------
+Enter number of vertices (V): 4
+Enter size threshold (K): 2
+Enter 4 vertex weights: 5 3 8 1
+Enter number of edges (E): 3
+Enter 3 edges (u v weight): 1 2 4 3 4 6 2 3 1
+
+--------------------------------------------------
+Edge (1, 2): maximum component weight = 8
+Edge (3, 4): maximum component weight = 9
+Edge (2, 3): maximum component weight = 0
+--------------------------------------------------

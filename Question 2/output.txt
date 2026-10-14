@@ -1,0 +1,31 @@
+==================================================
+ DAA LAB 10 - QUESTION 2: ISLANDS IN A GRID
+==================================================
+
+--------------------------------------------------
+Test Case 1: Standard Grid
+--------------------------------------------------
+Enter grid rows and columns (R C): 3 3
+Enter number of land cells to add (k): 4
+Enter 4 positions (r c): 0 0 0 1 1 2 2 1
+
+--------------------------------------------------
+Add (0, 0): islands = 1
+Add (0, 1): islands = 1
+Add (1, 2): islands = 2
+Add (2, 1): islands = 3
+--------------------------------------------------
+
+--------------------------------------------------
+Test Case 2: Cells Joining Later
+--------------------------------------------------
+Enter grid rows and columns (R C): 3 3
+Enter number of land cells to add (k): 4
+Enter 4 positions (r c): 0 0 1 1 0 1 1 0
+
+--------------------------------------------------
+Add (0, 0): islands = 1
+Add (1, 1): islands = 2
+Add (0, 1): islands = 1
+Add (1, 0): islands = 1
+--------------------------------------------------
